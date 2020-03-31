@@ -1,10 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'montserrat',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #f0f0f0;
+}
+
+a, a:visited, a:active, a:link:active, a:visited:active{
+  text-decoration: none;
+  color: #FC9BE0;
+  font-weight: 700;
 }
 
 code {
