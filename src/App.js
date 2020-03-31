@@ -36,15 +36,6 @@ const Line = styled.hr`
   height:.5em;
   background-image: linear-gradient(to left, #a6c1ee66 0%, #fbc2eb66 100%);
 `
-const SubTitle = styled.div`
-  margin: 1rem 0;
-  max-width: 90%;
-  font-size: 1.5em;
-
-  @media ${device.tablet}{
-    margin: 2rem auto;
-  }
-`
 
 function App() {
   const nada = () => {};
@@ -72,9 +63,6 @@ function App() {
           <Title>pacientes recuperados do Covid-19</Title>
         </Header>
         <Line/>
-        <SubTitle>
-          Durante essa pandemia, é comum olhar para todo lado e se deparar com um número de infectados ou mortos, mas você já parou pra pensar em quantas pessoas se recuperaram?
-        </SubTitle>
         <Body jsonData={jsonData}/>
       </Wrapper>
       <Footer/>
