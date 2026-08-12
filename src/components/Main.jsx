@@ -34,6 +34,7 @@ const Bold = styled.span`
     font-weight: 700;
 `
 
+/** @param {{ data: CovidData['data'] }} props */
 function Main(props){
     return(
         <>

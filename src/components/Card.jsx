@@ -26,6 +26,7 @@ const Text = styled.span`
 const Footer = styled.span`
     font-size: 1em;
 `
+/** @param {{ jsonData: CovidData }} props */
 function Card(props){
 
     return(
