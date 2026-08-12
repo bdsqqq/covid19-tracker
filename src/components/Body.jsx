@@ -22,6 +22,7 @@ const BodyWrapper = styled.div`
   }
 `
 
+/** @param {{ jsonData: CovidData | null }} props */
 function Body(props) {
     const jsonData = props.jsonData;
 
@@ -36,9 +37,7 @@ function Body(props) {
               "dt" : "---"
             }}/>
             <Main data={{
-              "data" : {
-                "recovered" : "---"
-              }
+              "recovered" : "---"
             }}/>
           </BodyWrapper>
         </>

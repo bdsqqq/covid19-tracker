@@ -9,7 +9,7 @@ Esta é uma aplicação web projetada para exibir dados relacionados ao número 
 
 ## Atribuições
 
-Esse projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app). Usa [Styled Components](https://github.com/styled-components) e [Font Awesome](https://github.com/FortAwesome/Font-Awesome).
+Esse projeto usa [Vite](https://vite.dev/) e [Styled Components](https://github.com/styled-components).
 
 Esse projeto usa ilustrações do [unDraw](https://undraw.co/).
 

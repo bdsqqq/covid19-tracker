@@ -9,7 +9,7 @@ This is a web application designed to display data related to the number of reco
 
 ## Attributions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It uses [Styled Components](https://github.com/styled-components), and [Font Awesome](https://github.com/FortAwesome/Font-Awesome).
+This project is built with [Vite](https://vite.dev/) and uses [Styled Components](https://github.com/styled-components).
 
 This project uses illustrations from [unDraw](https://undraw.co/).
 
